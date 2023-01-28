@@ -1,10 +1,9 @@
-
 const Simpsons = (props) => {
-    const {name, surname, image, paragraph }=props;
+    const {name, surname, picture, paragraph} = props;
     return (
         <div>
             <h3>{name} {surname}</h3>
-            <img src={image} alt={name}/>
+            <img src={picture} alt={name}/>
             <p>{paragraph}</p>
         </div>
     );
