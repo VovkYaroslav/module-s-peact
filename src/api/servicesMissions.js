@@ -1,5 +1,9 @@
+import {MissionsAPI} from "./MissionsAPI";
+
 const servicesMissions = {
 
-    getAll:
+    getAll: ()=>MissionsAPI.get('/v3/launches/')
 
-}
+};
+
+export {servicesMissions};
